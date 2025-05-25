@@ -1,25 +1,16 @@
 name: bitrisesample
 description: A new Flutter project.
-
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.2
-
-  http: ^0.13.6 # Optional: Add this if you're calling APIs
-
-  # Example of using a Git package (remove if unused)
-  package:
-    git:
-      url: https://github.com/bitrise-io/sample-apps-flutter-ios-android-package.git
+  http: ^0.13.6 # Only if you're using it
 
 dev_dependencies:
   flutter_test:
